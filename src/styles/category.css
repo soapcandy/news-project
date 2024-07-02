@@ -1,0 +1,24 @@
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.category {
+  background-color: #f2f2f2;
+  color: #333333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.category:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.category.active {
+  background-color: #333333;
+  color: white;
+}
