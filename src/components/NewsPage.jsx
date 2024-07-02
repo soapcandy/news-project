@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Category from "./Category";
 import NewsList from "./NewsList";
 import axios from "axios";
 import { useParams } from "react-router-dom";
@@ -35,7 +34,6 @@ function NewsPage() {
 
   return (
     <>
-      <Category />
       {data.map((article) => (
         <NewsList key={article.url} article={article} />
       ))}
